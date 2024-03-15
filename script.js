@@ -14,7 +14,7 @@ async function fetchWeatherData(cityName){
 	console.log(data);
 	console.log(data.weather[0].descr)
 }
-function fetchCity() {
+function fetchCity() { 
 	let cityName = document.getElementById("cityname");
 	if(cityName.value===""){
 		alert("Enter a city name");
